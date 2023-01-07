@@ -1,0 +1,146 @@
+﻿body{
+    margin:0;
+
+}
+
+footer{
+    margin:5%;
+}
+
+.font1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.align-center {
+    display: flex;
+    text-align: center;
+}
+
+#header {
+    height: 80px;
+    background-color: #FFD900;
+}
+
+#header img{
+    margin-top:1.5%;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.container{
+    display:flex;
+    margin:0;
+}
+
+.main-card {
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin:0;
+    background-color: #514988;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    line-height: 85px;
+    color: #F3C61F;
+}
+
+#data-period {
+    margin:0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36.46px;
+    color: #FFFFFF;
+}
+
+.main-card p {
+    margin:3%;
+    padding:3%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.card{
+    width:90%;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.temporizer {
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    margin-right:5%;
+    justify-content:space-around;
+    font-size: 50px;
+    line-height: 85px;
+    color: #514988;
+}
+.card p {
+    margin:0;
+    margin-right:5%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    justify-content:left;
+    line-height: 25px;
+    color: #E33881;
+}
+
+.card video{
+    margin:2%;
+    max-width:100%;
+}
+
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-days{
+    display:flex;
+    flex-direction:row;
+}
+
+.card2 p {
+    font-size:25px;
+    color: #F3C61F;
+}
+
+#container-days img{
+    margin:0;
+    padding:0;
+    /justify-content:space-between;
+    width:200px;
+}
+
+#container-days img:hover {
+   cursor:pointer;
+}
+
+#btnCadastro {
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+    background: #514988;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+#btnCadastro:hover{
+    color: #FFD900;
+}
